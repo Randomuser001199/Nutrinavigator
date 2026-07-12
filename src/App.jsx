@@ -1190,7 +1190,7 @@ function generatePDF(form, results, week, theme) {
   drawFooter();
 
   const fileSafeDate = new Date().toISOString().slice(0, 10);
-  doc.save(`NutriPlan-AI-Diet-Plan-${fileSafeDate}.pdf`);
+  doc.save(`Nutrifly-${fileSafeDate}.pdf`);
 }
 
 /* ============================== DASHBOARD ============================== */
